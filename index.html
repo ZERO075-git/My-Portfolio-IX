@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio</title>
+    <meta name="description" content="Personal portfolio of John Doe - Full Stack Developer">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">M.j</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Naveen M.J</span></h1>
+                <p class="hero-subtitle">cybersecurity & game dev</p>
+                <p class="hero-description">I am a technology enthusiast specializing in Cybersecurity and Game Development, combining analytical problem-solving with creative design. My mission is to build secure, innovative, and engaging digital experiences—from protecting systems against cyber threats to developing immersive 2D/3D games.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <a href="#about" class="scroll-indicator">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p style="text-align: justify;">
+                        I am an aspiring Python Developer, Cybersecurity Enthusiast, and Game Developer with a strong interest in Networking, R&D, and innovative problem-solving through code. Currently pursuing my engineering studies at Al-Ameen Engineering College, I am passionate about exploring emerging technologies, building secure systems, and creating engaging games. With a mindset of “finding a way forward in every loop,” I focus on developing practical solutions while continuously improving my skills in software development, cybersecurity, and game development.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in">Education</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <!-- <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Senior Full Stack Developer</h3>
+                        <p class="timeline-company">Tech Innovations Inc.</p>
+                        <p class="timeline-duration">2022 - Present</p>
+                        <ul class="timeline-description">
+                            <li>Led development of 5+ web applications using React, Node.js, and MongoDB</li>
+                            <li>Improved application performance by 40% through code optimization</li>
+                            <li>Mentored junior developers and established coding best practices</li>
+                        </ul>
+                    </div>
+                </div> -->
+                <!-- <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Frontend Developer</h3>
+                        <p class="timeline-company">Digital Solutions Co.</p>
+                        <p class="timeline-duration">2020 - 2022</p>
+                        <ul class="timeline-description">
+                            <li>Developed responsive user interfaces for 10+ client projects</li>
+                            <li>Collaborated with UX designers to implement pixel-perfect designs</li>
+                            <li>Integrated RESTful APIs and third-party services</li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Al-Ameen Engineering College</h3>
+                        <p class="timeline-company">B.Tech - Information technology</p>
+                        <p class="timeline-duration">2023 -  Till</p>
+                        <ul class="timeline-description">
+                            <li>Percentage: 80%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">St. Mary’s Higher Secondary School</h3>
+                        <p class="timeline-company">Higher Secondary Certificate (HSC)</p>
+                        <p class="timeline-duration"> Jun-2022 – Apr-2023 </p>
+                        <ul class="timeline-description">
+                            <li>Percentage: 60%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Grace Matriculation Higher Secondary School, Bhavani</h3>
+                        <p class="timeline-company">Secondary School Leaving Certificate (SSLC)</p>
+                        <p class="timeline-duration"> Jun-2020 – Mar-2021 </p>
+                        <ul class="timeline-description">
+                            <li>Promoted</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in">Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Tarun-Gautam-915/PassOP-Mongo-Version" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PassOp - Password Manager</h3>
+                        <p class="project-description">Developed a full-stack password manager using the MERN stack with secure credential storage and CRUD operations via MongoDB and Express.js.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Local Storage</span>
+                            <span class="tech-tag">Toastify</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Tarun-Gautam-915/my-spotify-clone" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Spotify Clone - Web Music Player</h3>
+                        <p class="project-description">A Spotify-inspired web music player built using HTML, CSS, and JavaScript. Browse and play music by mood, genre, or artist.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Tarun-Gautam-915/BitLinks-The-URL-Shortener" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">BitLinks-The URL Shortener</h3>
+                        <p class="project-description">A clean, privacy-focused URL shortener built with Next.js and Tailwind CSS. No tracking, no login — just fast, simple link shortening.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Tarun-Gautam-915/iTask-TodoList-App" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">iTask-TodoList App</h3>
+                        <p class="project-description">A responsive Todo app built with React.js, Tailwind CSS, and React Icons, featuring task add/edit/delete, completion toggle, and localStorage persistence using React Hooks.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Local Storage</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Tarun-Gautam-915/Water-Quality-Prediction-Model" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Water Quality Prediction Model</h3>
+                        <p class="project-description">A machine learning-powered web app built with Flask to predict water safety using survey data, TDS, and pH inputs. Provides purification suggestions and supports multi-model ML analysis.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Tarun-Gautam-915/my-X-clone" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">X (Twitter)-UI Clone</h3>
+                        <p class="project-description">A responsive UI clone of X (formerly Twitter) built with HTML and Tailwind CSS, replicating Twitter’s layout and components like sidebar, feed, and profile using pure frontend design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Tarun-Gautam-915/E-Commerce-Website-Comparator" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Website Comparator</h3>
+                        <p class="project-description">A web app built with Flask that allows users to compare product prices and ratings between Flipkart and Amazon in real-time using web scraping, with a simple and responsive UI.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">BeautifulSoup</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in">Technical Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-column fade-in">
+                    <h3 class="skills-category">Tech Stack</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" class="skill-icon" />
+                            <span>c</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" class="skill-icon" />
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" class="skill-icon" />
+                            <span>c#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div> 
+                        <div class="skill-item">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="Mysql" class="skill-icon" />
+                            <span>Mysql</span>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="skills-column fade-in">
+                    <h3 class="skills-category">Tools & Platforms</h3>
+                    <div class="skills-grid">
+
+                        <div class="skill-item">
+                              <i class="fas fa-globe"></i>
+                            <span>Nmap</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <i class="fab fa-github-alt"></i>
+                            <span>Github</span>
+                        </div>
+                        <div class="skill-item">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/blender/blender-original.svg" alt="Blender" class="skill-icon" />
+                            <span>Blender</span>
+                        </div>
+
+                        <div class="skill-item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" class="skill-icon" />
+                            <span>VS Code</span>
+                        </div>
+                         <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Pycharm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title fade-in">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content fade-in">
+                <p class="contact-description">
+                    I'm always open to discussing new opportunities, interesting projects, 
+                    or just having a chat about technology and dev a Newly.
+                </p>
+                <div class="contact-actions">
+                    <div class="resume-buttons">
+                        <button class="btn btn-primary" onclick="viewResume()">
+                            <i class="fas fa-eye"></i>
+                            View Resume
+                        </button>
+                        <a href="M.J.Naveen-Resume.pdf" download="Naveen M.J.pdf" class="btn btn-secondary">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:naveeni07@gmail.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/ZERO075-git" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/naveen-m-j-4b4ab4295" target="_blank" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Naveen M.J . All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeResume()">&times;</span>
+            <iframe id="resumeFrame" src="" width="100%" height="100%"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
